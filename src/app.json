@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/orderList/main",
+    "pages/me/main",
+    "pages/index/main",
+    "pages/shoppingCart/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#AB956D",
+    "navigationBarTitleText": "美团外卖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [{
+        "pagePath": "pages/home/main",
+        "text": "首页",
+        "iconPath": "static/images/icon_tabbar_home@3x.png",
+        "selectedIconPath": "static/images/icon_tabbar_home_selected@3x.png"
+      },
+      {
+        "pagePath": "pages/orderList/main",
+        "text": "订单",
+        "iconPath": "static/images/icon_tabbar_order@3x.png",
+        "selectedIconPath": "static/images/icon_tabbar_order_selected@3x.png"
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "我的",
+        "iconPath": "static/images/icon_tabbar_mine@3x.png",
+        "selectedIconPath": "static/images/icon_tabbar_mine_selected@3x.png"
+      }
+    ]
+  }
+}
